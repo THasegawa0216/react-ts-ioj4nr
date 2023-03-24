@@ -6,6 +6,7 @@ import Register from './Register';
 import Login from './Login';
 import NotFound from './NotFound';
 import StudyKit from './StudyKit';
+import SampleApp from '../Sample/Sample';
 
 export default function HtmlRouter() {
   return (
@@ -15,6 +16,7 @@ export default function HtmlRouter() {
         <Route path={`/register/`} element={<Register />} />
         <Route path={`/login/`} element={<Login />} />
         <Route path={`/StudyKit/`} element={<StudyKit />} />
+        <Route path={`/Sample/`} element={<SampleApp />} />
         <Route path={`/*/`} element={<NotFound />} />
       </Routes>
     </BrowserRouter>

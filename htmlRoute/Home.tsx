@@ -11,6 +11,9 @@ const Home = () => {
       <div>
         学習用ページは<Link to={`/StudyKit/`}>こちら</Link>
       </div>
+      <div>
+        サンプルは<Link to={`/Sample/`}>こちら</Link>
+      </div>
     </React.Fragment>
   );
 };
