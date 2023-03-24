@@ -8,6 +8,9 @@ const Home = () => {
       <div>
         新規登録は<Link to={`/register/`}>こちら</Link>
       </div>
+      <div>
+        学習用ページは<Link to={`/StudyKit/`}>こちら</Link>
+      </div>
     </React.Fragment>
   );
 };

@@ -5,7 +5,7 @@ import AppGoodBtn from './components/LikeButtonComp';
 import GoodMsgComp from './components/GoodMsgComp';
 import ColofulMessage1 from './components/PropsSample1';
 import ColofulMessage2 from './components/PropsSample2';
-import HtmlRouter from './components/BrowserRouter';
+import HtmlRouter from './htmlRoute/BrowserRouter';
 
 // startログ
 console.log(String('-').repeat(20) + 'Start' + String('-').repeat(20));
