@@ -17,7 +17,7 @@ export default function HtmlRouter() {
         <Route path={`/login/`} element={<Login />} />
         <Route path={`/StudyKit/`} element={<StudyKit />} />
         <Route path={`/Sample/`} element={<SampleApp />} />
-        <Route path={`/*/`} element={<NotFound />} />
+        <Route path={`*`} element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
