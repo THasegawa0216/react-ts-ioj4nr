@@ -1,16 +1,15 @@
 import * as React from 'react';
-import { StrictMode } from 'react';
 import '../style.css';
 
 export default function LikeButtonComp() {
   return (
     <div>
-      <LikeButton />
+      <LikeButtonFunc />
     </div>
   );
 }
 
-function LikeButton() {
+function LikeButtonFunc() {
   const onClickCountUp = () => {
     setCount(count + 1);
   };
