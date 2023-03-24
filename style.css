@@ -4,8 +4,8 @@ p {
 }
 
 .likeButton {
+  color: rgb(250, 0, 0);
   background-color: rgb(29, 146, 255);
-  color: rgb(151, 143, 143);
   padding: 0.5rem;
   border-radius: 0.4rem;
   cursor: pointer;
